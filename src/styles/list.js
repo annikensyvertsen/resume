@@ -23,7 +23,9 @@ export const List = styled.li`
   }
   color: white;
   font-size: 26px;
-  animation: ${keyFrame} 2s ease-in-out 0s;
+  animation: ${keyFrame} 3s ease-in-out 0s;
 `;
+
+//animation: ${keyFrame} 2s ease-in-out 0s;
 
 //animation: ${keyFrame} 2s ease-in-out 0s

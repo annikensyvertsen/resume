@@ -15,7 +15,9 @@ export const Heading = styled.h1`
     return props.font;
   }};
   font-size: ${props => {
-    if (props.size === "xs") {
+    if (props.size === "xxs") {
+      return "20px";
+    } else if (props.size === "xs") {
       return "30px";
     } else if (props.size === "s") {
       return "50px";

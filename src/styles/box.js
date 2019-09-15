@@ -1,16 +1,11 @@
 import styled from "styled-components";
+import { effectColor } from "./theme";
 
-export const Flex = styled.div`
-  display: flex;
-  justify-content: ${props => {
-    return props.justifyContent;
-  }};
-
-  align-content: ${props => {
-    if (props.alignItems === "center") {
-      return "center";
-    }
-  }};
+export const Box = styled.div`
+  width: 80%;
+  min-height: 10vh;
+  border-style: solid;
+  border-color: ${effectColor};
   margin: ${props => {
     if (props.m === "s") {
       return "5%";
@@ -56,5 +51,4 @@ export const Flex = styled.div`
       return "10%";
     }
   }};
-  flex-direction: ${props => props.flexDirection};
 `;

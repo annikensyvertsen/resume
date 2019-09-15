@@ -7,6 +7,7 @@ import { List } from "../styles/list";
 import styled from "styled-components";
 
 export const Bio = () => {
+  const properties = ["React", "JavaScript", "Html", "CSS", "Java", "Python"];
   return (
     <GridWrapper>
       <Flex flexDirection="column">
@@ -19,19 +20,15 @@ export const Bio = () => {
           å lære. Programmering er en fantastisk måte for meg å få utslipp for
           den kreative energien og behovet mitt for å skape. I tillegg gir det
           en fantastisk mestringsfølelse som det er vanskelig å finne andre
-          steder.{" "}
+          steder.
         </Text>
       </Flex>
       <Flex mx="l">
         <ul style={{ listStyle: "none" }}>
           <Heading size="xs">nøkkelegenskaper</Heading>
-
-          <List>React</List>
-          <List>JavaScript</List>
-          <List>CSS</List>
-          <List>HTML</List>
-          <List>Java</List>
-          <List>Python</List>
+          {properties.map(p => (
+            <List>{p}</List>
+          ))}
         </ul>
       </Flex>
     </GridWrapper>
