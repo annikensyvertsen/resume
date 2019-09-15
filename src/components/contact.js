@@ -10,7 +10,7 @@ export const Contact = () => {
   return (
     <GridWrapper>
       <Flex flexDirection="column">
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               E-mail
@@ -18,7 +18,7 @@ export const Contact = () => {
             <Text>annikensyvertsen@hotmail.com</Text>
           </Flex>
         </Box>
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               LinkedIn
@@ -26,7 +26,7 @@ export const Contact = () => {
             <Text>Anniken Syvertsen</Text>
           </Flex>
         </Box>
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               Phone
@@ -36,7 +36,7 @@ export const Contact = () => {
         </Box>
       </Flex>
       <Flex flexDirection="column">
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               E-mail
@@ -44,7 +44,7 @@ export const Contact = () => {
             <Text>annikensyvertsen@hotmail.com</Text>
           </Flex>
         </Box>
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               LinkedIn
@@ -52,7 +52,7 @@ export const Contact = () => {
             <Text>Anniken Syvertsen</Text>
           </Flex>
         </Box>
-        <Box m="s">
+        <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
               Phone

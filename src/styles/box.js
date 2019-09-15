@@ -4,7 +4,16 @@ import { effectColor } from "./theme";
 export const Box = styled.div`
   width: 80%;
   min-height: 10vh;
-  border-style: solid;
+  border-style: ${props => {
+    if (props.border === "solid") {
+      return "solid";
+    }
+  }};
+  border-left-style: ${props => {
+    if (props.border === "left") {
+      return "solid";
+    }
+  }};
   border-color: ${effectColor};
   margin: ${props => {
     if (props.m === "s") {
