@@ -25,7 +25,7 @@ export const Bio = () => {
       </Flex>
       <Flex mx="l">
         <ul style={{ listStyle: "none" }}>
-          <Heading size="xs">nøkkelegenskaper</Heading>
+          <Heading size="xs">Properties</Heading>
           {properties.map(p => (
             <List>{p}</List>
           ))}

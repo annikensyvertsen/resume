@@ -26,38 +26,26 @@ export const Contact = () => {
             <Text>Anniken Syvertsen</Text>
           </Flex>
         </Box>
-        <Box border="solid" m="s">
-          <Flex flexDirection="column" my="s" mx="m">
-            <Heading size="xxs" transform="upperCase" spacing="5px">
-              Phone
-            </Heading>
-            <Text>+47 951 27 174</Text>
-          </Flex>
-        </Box>
       </Flex>
       <Flex flexDirection="column">
         <Box border="solid" m="s">
           <Flex flexDirection="column" my="s" mx="m">
             <Heading size="xxs" transform="upperCase" spacing="5px">
-              E-mail
-            </Heading>
-            <Text>annikensyvertsen@hotmail.com</Text>
-          </Flex>
-        </Box>
-        <Box border="solid" m="s">
-          <Flex flexDirection="column" my="s" mx="m">
-            <Heading size="xxs" transform="upperCase" spacing="5px">
-              LinkedIn
-            </Heading>
-            <Text>Anniken Syvertsen</Text>
-          </Flex>
-        </Box>
-        <Box border="solid" m="s">
-          <Flex flexDirection="column" my="s" mx="m">
-            <Heading size="xxs" transform="upperCase" spacing="5px">
               Phone
             </Heading>
             <Text>+47 951 27 174</Text>
+          </Flex>
+        </Box>
+        <Box border="solid" m="s">
+          <Flex flexDirection="column" my="s" mx="m">
+            <Heading size="xxs" transform="upperCase" spacing="5px">
+              Github
+            </Heading>
+            <Text>
+              <a href="https://github.com/annikensyvertsen/">
+                https://github.com/annikensyvertsen/
+              </a>
+            </Text>
           </Flex>
         </Box>
       </Flex>
